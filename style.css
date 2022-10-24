@@ -38,7 +38,7 @@ main{
   padding: 20px 0;
 }
 
-aside{
+nav{
   background-color: var(--aside-background-color);
   padding: 20px;
   border-radius: 8px;
@@ -47,17 +47,17 @@ aside{
     left: 20px;
 }
 
-aside nav ul li{
+nav ul li{
   list-style: none;
   margin: 10px 0;
 }
 
-aside nav ul li a{
+nav ul li a{
   color: #fff;
   text-decoration: none;
 }
 
-aside nav ul li a:hover{
+nav ul li a:hover{
   color: var(--main-background-color);
   transition: all 0.5s;
 }
@@ -113,7 +113,7 @@ footer .logos img{
   .textos-header p{
     font-size: 0.8rem;
   }
-  aside{
+  nav{
     display: none;
   }
 
