@@ -47,17 +47,17 @@ aside{
     left: 20px;
 }
 
-aside ul li{
+aside nav ul li{
   list-style: none;
   margin: 10px 0;
 }
 
-aside ul li a{
+aside nav ul li a{
   color: #fff;
   text-decoration: none;
 }
 
-aside ul li a:hover{
+aside nav ul li a:hover{
   color: var(--main-background-color);
   transition: all 0.5s;
 }
