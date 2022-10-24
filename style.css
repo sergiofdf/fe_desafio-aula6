@@ -101,3 +101,43 @@ footer .logos img{
   width: 64px;
   margin: 0 20px;
 }
+
+@media(max-width: 700px){
+  header img{
+    width: 40%;
+  }
+
+  header h1{
+    font-size: 1.2rem;
+  }
+  .textos-header p{
+    font-size: 0.8rem;
+  }
+  aside{
+    display: none;
+  }
+
+  .container-menu{
+    margin: 10px;
+    width: 100%;
+  }
+
+  .container-menu section h2{
+    font-size: 5vw;
+   }
+
+  .item img{
+    width: 16vw;
+    justify-content: center;
+    border-radius: 3px;
+  }
+  .item{
+    font-size: 2vw;
+    gap: 5px;
+  }
+
+  footer .logos img{
+    width: 10vw;
+    margin: 0 20px;
+  }
+}
